@@ -10,5 +10,5 @@ code --version
 sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/master/tools/install.sh -o -)"
 sudo chsh -s $(which zsh) $(whoami)
 
-##restart the machine
+echo "You should restart the machine so that zsh works nice."
 
