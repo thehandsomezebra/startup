@@ -8,7 +8,7 @@ code --version
 
 
 sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/master/tools/install.sh -o -)"
-sudho chsh -s $(which zsh) $(whoami)
+sudo chsh -s $(which zsh) $(whoami)
 
 ##restart the machine
 
